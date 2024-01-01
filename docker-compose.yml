@@ -1,0 +1,48 @@
+version: '3.8'
+services:
+  # MongoDB Service
+  mongo:
+    image: mongo
+    volumes:
+      - mongo-data:/data/db
+    ports:
+      - "27017:27017"
+    networks:
+      - mern-network
+
+  # Node/Express Backend Service
+  backend:
+    build: ./backend
+    volumes:
+      - ./backend:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/your-db
+    networks:
+      - mern-network
+
+  # React Frontend Service
+  frontend:
+    build: ./frontend
+    volumes:
+      - ./frontend:/usr/src/app
+      - /usr/src/app/node_modules
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - mern-network
+
+# Volumes
+volumes:
+  mongo-data:
+
+# Networks
+networks:
+  mern-network:
+    driver: bridge
