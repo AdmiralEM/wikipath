@@ -26,7 +26,5 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. Check out our [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute.
 
-## Getting Started
 
-To get a local copy up and running, follow these simple steps in our [Getting Started](#getting-started) guide.
 
