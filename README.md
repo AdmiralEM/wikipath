@@ -26,5 +26,6 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. Check out our [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute.
 
+## Miscellaneous
 
-
+If you like the sound of this and what to help out in other ways, feel free to .[Buy Me A Coffee](https://www.buymeacoffee.com/bluewaters). I mean, there isn't much yet, but I figured I'd get this out here just ince case.
