@@ -33,7 +33,7 @@ This project uses a containerized development environment to ensure consistency 
 ### Setup
 
 1. **Clone the Repository**:
-   bash
+   ```bash
    git clone https://github.com/AdmiralEm/wikipath.git
    cd wikipath
    ```
@@ -45,7 +45,7 @@ This project uses a containerized development environment to ensure consistency 
    Open the project folder with VS Code for a seamless coding experience.
 
 4. **Build and Run the Docker Containers**:
-   bash
+   ```bash
    docker-compose up --build
    ```
 
